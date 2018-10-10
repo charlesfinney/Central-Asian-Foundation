@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><script xmlns="">
+    // This signals the axe-core test suite that the extension is running.
+    window.__AXE_EXTENSION__ = true
+  </script>
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>check -circle -solid</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.2584575,3.32909419 C13.6289925,2.91955561 14.2613671,2.88793688 14.6709058,3.25847179 C15.0804444,3.62900669 15.1120631,4.26138119 14.7415282,4.67091977 L6.59867615,13.6709126 C6.21015983,14.1003253 5.53926099,14.1109863 5.137297,13.6941349 L1.28015657,9.69413804 C0.896796316,9.29657933 0.908306497,8.66351948 1.30586527,8.28015929 C1.70342405,7.89679911 2.336484,7.90830928 2.71984425,8.305868 L5.83386459,11.5352219 L13.2584575,3.32909419 Z" id="path-1"/>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="site-pricing-page-alt-CTA" transform="translate(-660.000000, -1970.000000)">
+            <g id="Group-7-Copy" transform="translate(228.000000, 1965.000000)">
+                <g id="Group-6">
+                    <g id="check_16" transform="translate(431.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"/>
+                        </mask>
+                        <use fill="#0FCB98" fill-rule="nonzero" xlink:href="#path-1"/>
+                        <g id="green-400" mask="url(#mask-2)" fill="#0FCB98" fill-rule="evenodd">
+                            <rect id="Rectangle" x="0" y="0" width="16" height="16"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

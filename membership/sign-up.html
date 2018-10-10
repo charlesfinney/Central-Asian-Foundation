@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html class='launch' lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>
+
+</title>
+<meta content='DocSend helps salespeople communicate more effectively by reporting back in real time how prospects engage with sales collateral &amp; proposals after they&#39;re sent.' name='description'>
+<meta content='noindex,nofollow' name='robots'>
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1aed9368e8","applicationID":"1801924","transactionName":"cA4MEEpWVVgHE0pVAEUIEQEXWkxHFg4IbhdWBgsXTEtYQAsOC0JKXQQV","queueTime":1,"applicationTime":12,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="stylesheet" media="all" href="https://d2qvtfnm75xrxf.cloudfront.net/assets/application-5881ec492a0ed78a4ad922f57e667aae81f127e6f422901a469c43ce96a860a0.css" />
+<!--[if lte IE 9]>
+<link rel="stylesheet" media="all" href="https://d2qvtfnm75xrxf.cloudfront.net/assets/application_split2-c5b3f7faf780874f986674c5641883a033a66a547d5be2cfed789bc8ec4aa818.css" />
+<![endif]-->
+<!--[if lt IE 9]>
+<script src='https://html5shim.googlecode.com/svn/trunk/html5.js'></script>
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" media="all" href="https://d2qvtfnm75xrxf.cloudfront.net/assets/ie7-84a0849eaf7107c5332daefbe513d6d0a4d1d62d16404c676991cefa7845ae84.css" />
+<![endif]-->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600,400,400italic,300,300italic' rel='stylesheet' type='text/css'>
+<link href='https://d2qvtfnm75xrxf.cloudfront.net/public/respond-proxy.html' id='respond-proxy' rel='respond-proxy'>
+<link href='/respondjs/respond.proxy.gif' id='respond-redirect' rel='respond-redirect'>
+<link href='https://chrome.google.com/webstore/detail/nmkphfcebcpicnakipcmgapcckkbhppd' rel='chrome-webstore-item'>
+<script>
+  window.requestId = '102e40a2-58c5-4a8e-953b-a31c4b5e90a6';
+</script>
+<script data-apikey='21f24c2371049273299521b66ca18bb8' data-notifyhandler='xhr' src='//d2wy8f7a9ursnm.cloudfront.net/bugsnag-2.min.js'></script>
+<script>
+  Bugsnag.beforeNotify = function(error, metadata) {
+    metadata.window = {
+      requestId: window.requestId,
+      keys: Object.keys(window),
+      ds: (function enumerate(obj) {
+        if (!obj) {
+          return '';
+        }
+        var ret = {};
+        for (var key in obj) {
+          var val = obj[key];
+          switch(typeof val) {
+          case 'object':
+            ret[key] = enumerate(val); break;
+          case 'function':
+            ret[key] = '->'; break;
+          default:
+            ret[key] = val;
+          }
+        }
+        return ret;
+      })(window.ds)
+    };
+    
+  }
+</script>
+
+<link href='/favicon.ico?v=3' rel='shortcut icon' type='image/x-icon'>
+<link href='/apple-touch-icon-152.png' rel='apple-touch-icon' sizes='152x152'>
+<link href='/apple-touch-icon-144.png' rel='apple-touch-icon' sizes='144x144'>
+<link href='/apple-touch-icon-120.png' rel='apple-touch-icon' sizes='120x120'>
+<link href='/apple-touch-icon-114.png' rel='apple-touch-icon' sizes='114x114'>
+<link href='/apple-touch-icon-76.png' rel='apple-touch-icon' sizes='76x76'>
+<link href='/apple-touch-icon-72.png' rel='apple-touch-icon' sizes='72x72'>
+<link href='/apple-touch-icon.png' rel='apple-touch-icon'>
+
+<meta content='DocSend - Simple, intelligent, modern content sending' itemprop='name'>
+<meta content='DocSend helps you communicate more effectively by telling you what happens to content after you send them and letting you keep control in real time.' itemprop='description'>
+<meta content='https://docsend.com/apple-touch-icon-1024.png' itemprop='image'>
+<meta content='summary' name='twitter:card'>
+<meta content='@docsend' name='twitter:site'>
+<meta content='DocSend - Simple, intelligent, modern content sending' name='twitter:title'>
+<meta content='DocSend helps you communicate more effectively by telling you what happens to content after you send them and letting you keep control in real time.' name='twitter:description'>
+<meta content='https://d2qvtfnm75xrxf.cloudfront.net/assets/social/ds-logo-300-cfa74c771da19323a014d20041f2e101b78c313616f8c6717fc93189eb7e9428.png' name='twitter:image'>
+<meta content='DocSend - Simple, intelligent, modern content sending' property='og:title'>
+<meta content='website' property='og:type'>
+<meta content='https://docsend.com' property='og:url'>
+<meta content='https://d2qvtfnm75xrxf.cloudfront.net/assets/social/ds-logo-300-cfa74c771da19323a014d20041f2e101b78c313616f8c6717fc93189eb7e9428.png' property='og:image'>
+<meta content='DocSend helps you communicate more effectively by telling you what happens to content after you send them and letting you keep control in real time.' property='og:description'>
+<meta content='DocSend' property='og:site_name'>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="wSwI5SKZCtVB+z9UZrwHgfx9YDvyTaH9F89mv8cIRqExLXbdHg/XyLXu4Si0XjhISquxqbl3u0WT1Zy//QFm1g==" />
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+    analytics.load('J8a3bmdm0qYJGht3cOnzufg52HKsSVOv');
+    analytics.page();
+  }}();
+</script>
+
+
+</head>
+
+<body class='launch ' data-action='new' data-controller='devise/custom_registrations' data-live='false'>
+
+<div class='row flash flash-notice' style='display:none'>
+<div class='alert alert-info'>
+<div class='alert_content alert_content--with-close'>
+
+</div>
+<button class='close alert_icon alert_icon--close js-init-alert-close-button'>
+<svg width="25" height="25" viewbox="0 0 32 32" aria-hidden="true" role="img" class="ds-icon ds-icon-close-thin "><path d="M18.122 16l5.939-5.939a1.5 1.5 0 0 0-2.122-2.121L16 13.879 10.061 7.94a1.5 1.5 0 1 0-2.121 2.121l5.939 5.94L7.94 21.94a1.5 1.5 0 1 0 2.121 2.122l5.94-5.939 5.939 5.939a1.5 1.5 0 1 0 2.122-2.122l-5.939-5.939z"></path></svg>
+</button>
+</div>
+</div>
+<div class='row flash flash-warning' style='display:none'>
+<div class='alert alert-warning'>
+<div class='alert_content alert_content--with-close'>
+
+</div>
+<button class='close alert_icon alert_icon--close js-init-alert-close-button'>
+<svg width="25" height="25" viewbox="0 0 32 32" aria-hidden="true" role="img" class="ds-icon ds-icon-close-thin "><path d="M18.122 16l5.939-5.939a1.5 1.5 0 0 0-2.122-2.121L16 13.879 10.061 7.94a1.5 1.5 0 1 0-2.121 2.121l5.939 5.94L7.94 21.94a1.5 1.5 0 1 0 2.121 2.122l5.94-5.939 5.939 5.939a1.5 1.5 0 1 0 2.122-2.122l-5.939-5.939z"></path></svg>
+</button>
+</div>
+</div>
+
+<div class='ds-main'>
+<noscript>
+<div class='alert alert-danger'>
+<h4 class='alert-heading'>Warning!</h4>
+<p>
+You need to have
+<a href='http://en.wikipedia.org/wiki/JavaScript' rel='noopener noreferrer' target='_blank'>JavaScript</a>
+enabled to use this site.
+</p>
+</div>
+</noscript>
+<div class='navbar navbar--launch'>
+<div class='container--launch'>
+<a class="inline-block" href="/"><svg width="160" height="40" viewbox="0 0 145 32" aria-hidden="true" role="img" class="ds-icon ds-icon-docsend-logo ds-white-color"><path d="M8.921 26.758H5.068V8.055h3.853c6.365 0 7.706 3.334 7.706 9.352 0 6.928-1.992 9.352-7.706 9.352zm0-23.293H.175v27.882h8.746c9.265 0 12.772-5.368 12.772-13.984 0-10.175-3.853-13.898-12.772-13.898zm24.894 23.856c-4.2 0-5.152-2.598-5.152-6.668s.952-6.624 5.152-6.624c4.243 0 5.152 2.554 5.152 6.624s-.909 6.668-5.152 6.668zm0-17.794c-6.668 0-9.958 4.373-9.958 11.127 0 7.057 2.987 11.17 9.958 11.17 6.711 0 9.915-4.416 9.915-11.17 0-7.014-2.944-11.127-9.915-11.127zm64.295 9.005h-9.222v-.217c0-3.204 1.688-4.633 4.546-4.633 2.944 0 4.676 1.559 4.676 4.633zm-4.547-9.005c-7.144 0-9.568 4.979-9.568 11.214 0 7.576 3.55 11.084 10.737 11.084 2.467 0 5.195-.433 7.23-1.342l-.736-4.503c-1.472.693-4.2 1.342-6.451 1.342-3.94 0-5.888-1.775-5.888-4.676v-.217h13.335c.346-1.082.433-2.598.433-3.377 0-6.278-3.16-9.525-9.092-9.525zm21.129 0c-3.204 0-7.187.476-9.525 1.385v20.435h4.763V14.549c1.125-.303 2.727-.52 4.676-.52 2.641 0 4.416.866 4.416 4.069v13.248h4.719V17.968c0-6.061-3.334-8.443-9.048-8.443zm25.328 17.361c-1.039.303-2.251.433-3.42.433-4.113 0-5.628-1.949-5.628-6.668 0-4.286 1.082-6.624 5.455-6.624 1.732 0 2.988.346 3.594.649zm0-24.588v7.833c-1.125-.433-2.554-.606-3.94-.606-6.408 0-9.915 4.459-9.915 10.91 0 7.187 3.334 11.387 10.607 11.387 1.602 0 5.368-.216 8.01-1.342V1.301zM83.029 5.371L78.072.176v2.899h-4.914c-4.936 0-9.685 2.425-9.685 8.053 0 10.088 13.595 7.057 13.595 12.556 0 2.425-2.595 3.633-5.539 3.633l-7.464.002-.824 4.505 8.631-.003c5.204-.068 10.174-2.591 10.174-8.569 0-9.612-13.595-6.408-13.595-12.383 0-2.165 2.109-3.204 4.707-3.204h4.914v2.901zm-26.007 21.95c-1.061 0-1.97-.143-2.737-.43s-1.392-.715-1.885-1.286-.852-1.284-1.089-2.139c-.237-.854-.35-1.85-.35-2.987 0-1.028.092-1.945.296-2.743s.521-1.475.97-2.024c.449-.549 1.031-.97 1.766-1.254s1.622-.429 2.683-.429a12 12 0 0 1 1.482.089 10.894 10.894 0 0 1 2.378.568c.339.121.654.252.946.382l-.852-5.041c-.406-.124-.36-.098-.836-.192s-.985-.172-1.521-.225a16.815 16.815 0 0 0-1.683-.083c-1.743 0-3.266.287-4.571.821s-2.392 1.314-3.26 2.302c-.868.988-1.519 2.182-1.953 3.544s-.65 2.891-.65 4.547c0 1.818.26 3.42.75 4.8s1.212 2.538 2.135 3.469c.923.931 2.047 1.634 3.344 2.105s2.766.709 4.379.709h3.988l.823-4.504h-.871z"></path></svg>
+</a></div>
+</div>
+
+<div class='container--launch'>
+<div class='launch-panel flex'>
+<div class='launch-panel_col'>
+<div class='launch-panel_title'>
+Create a New Account
+</div>
+<div class='oauth-buttons space-stack-m'>
+<button class='google-oauth-button js-google-button' data-href='/account/auth/google_oauth2' data-modal='false' data-title='Google' data-type='signup'>
+<svg width="18" height="18" viewbox="0 0 18 18" aria-hidden="true" role="img" class="ds-icon ds-icon-google "><defs><clippath id="google_a"><path d="M17.673 7.29c.107.589.164 1.202.164 1.841 0 2.74-.982 5.048-2.684 6.615h-2.908v-2.259a4.141 4.141 0 0 0 1.796-2.716H9.197V7.29h8.476z"></path></clippath><clippath id="google_b"><path d="M4.161 10.71c.708 2.127 2.692 3.71 5.036 3.71 1.211 0 2.242-.319 3.048-.859l2.908 2.259C13.664 17.194 11.627 18 9.197 18a8.998 8.998 0 0 1-8.043-4.958V10.71h3.007z"></path></clippath><clippath id="google_c"><path d="M4.127 4.958V7.29A5.41 5.41 0 0 0 3.845 9c0 .593.102 1.17.282 1.71L1.12 13.042a9.005 9.005 0 0 1 0-8.084h3.007z"></path></clippath><clippath id="google_d"><path d="M9.13 0c2.427 0 4.464.892 6.023 2.344L12.57 4.925c-.931-.891-2.118-1.345-3.439-1.345-2.344 0-4.328 1.583-5.036 3.71L1.087 4.958A9 9 0 0 1 9.131 0H9.13z"></path></clippath></defs><g clip-path="url(#google_a)"><path d="M9.177 7.206h8.76v8.64h-8.76z" fill="#318AF5"></path></g><g clip-path="url(#google_b)"><path d="M1.137 10.64h14.04v7.44H1.137z" fill="#3DA751"></path></g><g clip-path="url(#google_c)"><path d="M.143 4.88h4.08v8.28H.143z" fill="#FDB900"></path></g><g clip-path="url(#google_d)"><path d="M1.071-.04h14.16V7.4H1.071z" fill="#EA3E36"></path></g></svg>
+<span class='space-inline-s'>
+Sign Up with Google
+</span>
+</button>
+
+<button class='linkedin-oauth-button space-stack-s js-linkedin-button' data-href='/account/auth/linkedin' data-modal='false' data-title='LinkedIn' data-type='signup'>
+<svg width="18" height="18" viewbox="0 0 18 18" aria-hidden="true" role="img" class="ds-icon ds-icon-linkedin "><defs><clippath id="linkedin_a"><path d="M0 0h23.398v17.939H0z"></path></clippath></defs><g clip-path="url(#linkedin_a)"><path class="ds-icon-linkedin_bg" d="M16.667 0H1.327C.595 0 0 .582 0 1.297v15.405C0 17.42.595 18 1.327 18h15.34C17.4 18 18 17.42 18 16.702V1.297C18 .582 17.4 0 16.667 0" fill="#0071A1"></path></g><path class="ds-icon-linkedin_li" d="M4.004 2.479c.853 0 1.548.693 1.548 1.547a1.55 1.55 0 0 1-3.097 0c0-.854.691-1.547 1.549-1.547m-1.337 4.27H5.34v8.59H2.667zm4.347 0h2.559v1.173h.036c.357-.675 1.228-1.387 2.527-1.387 2.702 0 3.201 1.779 3.201 4.093v4.711H12.67v-4.177c0-.997-.02-2.278-1.388-2.278-1.389 0-1.601 1.085-1.601 2.205v4.25H7.014v-8.59" fill="#FFFFFE"></path></svg>
+<span class='space-inline-s'>
+Sign Up with LinkedIn
+</span>
+</button>
+
+</div>
+<div class='space-stack-s'>
+<div class='vertical-separator'>
+<hr class='vertical-separator_hr'>
+<div class='vertical-separator_or'>
+or
+</div>
+<hr class='vertical-separator_hr'>
+</div>
+
+</div>
+<form class="new_user" id="new_user" action="/signup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7Xa4lUA4O5rponnmhiEuFdoeXIQfNv8VHVXuliihXJ4dd8atfK7mhx23p5pUwxHcbMiNFlQM5a2ZTxSWEqh86Q==" /><fieldset>
+<div class='form_group text-left'>
+<div class='form_label'>
+<label for="user_email">Email</label>
+</div>
+<div class='form_controls'>
+<input type="email" placeholder="e.g. name@company.com" class="form-control form-control--new-design" tabindex="1" value="" name="user[email]" id="user_email" />
+</div>
+</div>
+<input type="submit" name="commit" value="Sign Up for Free" class="base-button base-button--main primary-button full-width" tabindex="2" />
+</fieldset>
+</form><div class='space-stack-l text-center small-text ds-mid-gray-color text-block'>
+<div class='ds-panel-footer'>
+Already have an account?
+<a target="" rel="" href="/login">Log in</a>
+</div>
+<div class='ds-panel-footer'>
+Didn't receive a confirmation email?
+<a target="" rel="" href="/account/confirmation/new">Send again</a>
+</div>
+
+</div>
+</div>
+<div class='launch-panel_divider hidden-xs-down'></div>
+<div class='hidden-xs-down js-customer-testimonial-carousel launch-panel_col' data-start-index='0'>
+<svg width="80" height="55" aria-hidden="true" role="img" class="ds-icon ds-icon-quote customer-testimonial-carousel_quote-icon vertical-align-middle no-show"><path fill="#E5E6E8" d="M17.617 20.03c9.688 0 17.54 7.845 17.54 17.524 0 9.68-7.852 17.524-17.54 17.524C7.93 55.078.078 47.233.078 37.554L0 35.049C0 15.693 15.706 0 35.078 0v10.015c-6.694 0-12.986 2.603-17.718 7.331-.91.91-1.742 1.878-2.492 2.897a17.645 17.645 0 0 1 2.749-.213zm45.101 0c9.688 0 17.54 7.845 17.54 17.524 0 9.68-7.852 17.524-17.54 17.524-9.687 0-17.538-7.845-17.538-17.524l-.079-2.505C45.101 15.693 60.807 0 80.18 0v10.015c-6.694 0-12.986 2.603-17.718 7.331-.91.91-1.742 1.878-2.492 2.897a17.675 17.675 0 0 1 2.749-.213z" opacity=".3"></path></svg>
+<div class='column-title positioned-context'>what our customers say</div>
+<div class='customer-testimonial-carousel_inner'>
+<div class='customer-testimonial-carousel_item js-carousel-item' data-item-index='0'>
+<div class='space-stack-m'>
+<img height="40" alt="American Public Media Logo" class="customer-testimonial-carousel_logos" src="https://d2qvtfnm75xrxf.cloudfront.net/assets/customer_logos/americanpublicmedia-3f79856b5f5b44a0130aa5b6bc36b6fd2ed78dad54bdf0fa7e98aa11db39a286.png" />
+</div>
+<div class='space-stack-m customer-testimonial-carousel_quote'>
+“DocSend’s elegance and simplicity helps separate us from the crowd.”
+</div>
+<div class='space-stack-m small-text text-block'>
+<div class='font-weight-bold'>Mark Evans</div>
+National Sales
+</div>
+</div>
+<div class='customer-testimonial-carousel_item js-carousel-item' data-item-index='1'>
+<div class='space-stack-m'>
+<img height="40" alt="Tenfold Logo" class="customer-testimonial-carousel_logos" src="https://d2qvtfnm75xrxf.cloudfront.net/assets/customer_logos/tenfold-1f35d0bea1502bf86060e3c918f90518203786221778658f944eab0ec5e236c3.png" />
+</div>
+<div class='space-stack-m customer-testimonial-carousel_quote'>
+“By getting all our content in one place, our sales reps now spend 40% less time searching for content.”
+</div>
+<div class='space-stack-m small-text text-block'>
+<div class='font-weight-bold'>Dan Sincavage</div>
+Chief Strategy Officer
+</div>
+</div>
+<div class='customer-testimonial-carousel_item js-carousel-item' data-item-index='2'>
+<div class='space-stack-m'>
+<img height="40" alt="Foundersuite Logo" class="customer-testimonial-carousel_logos" src="https://d2qvtfnm75xrxf.cloudfront.net/assets/customer_logos/foundersuite-7635f0297a2c3109ca28da7d108b20ccbb26e0c40071abcb783f1bda639b4548.png" />
+</div>
+<div class='space-stack-m customer-testimonial-carousel_quote'>
+“I’ve been using DocSend for fundraising and loving it. It's surreal to watch potential investors browse through my deck in real-time.”
+</div>
+<div class='space-stack-m small-text text-block'>
+<div class='font-weight-bold'>Nathan Beckford</div>
+CEO
+</div>
+</div>
+<div class='customer-testimonial-carousel_item js-carousel-item' data-item-index='3'>
+<div class='space-stack-m'>
+<img height="40" alt="True Search Logo" class="customer-testimonial-carousel_logos" src="https://d2qvtfnm75xrxf.cloudfront.net/assets/customer_logos/truesearch-710d20bec56353fa59fd16abfbc534e5234bdfee7b93d3b71a8d458c853fec7c.png" />
+</div>
+<div class='space-stack-m customer-testimonial-carousel_quote'>
+“DocSend's smart alerts and analytics help make sure we present information and follow up as strategically as possible with clients and candidates. Coupled with thoughtful & elegant design, DocSend has changed the way I share important material.”
+</div>
+<div class='space-stack-m small-text text-block'>
+<div class='font-weight-bold'>Mark Jacobson</div>
+Partner
+</div>
+</div>
+</div>
+<div class='space-stack-m text-center'>
+<div class='customer-testimonial-carousel_controls'>
+<div class='customer-testimonial-carousel_indicator js-carousel-indicator' data-go-to='0'>
+<div class='customer-testimonial-carousel_dot'></div>
+</div>
+<div class='customer-testimonial-carousel_indicator js-carousel-indicator' data-go-to='1'>
+<div class='customer-testimonial-carousel_dot'></div>
+</div>
+<div class='customer-testimonial-carousel_indicator js-carousel-indicator' data-go-to='2'>
+<div class='customer-testimonial-carousel_dot'></div>
+</div>
+<div class='customer-testimonial-carousel_indicator js-carousel-indicator' data-go-to='3'>
+<div class='customer-testimonial-carousel_dot'></div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class='space-inset-xl text-center ds-white-color xlarge-text'>
+Deliver the content that closes deals.
+</div>
+<div class='footer-signup'>
+<div class='customer-logos'>
+<div class='customer-logos_logo'>
+<svg viewbox="0 0 566.93 142.06" aria-hidden="true" role="img" class="ds-icon ds-icon-forbes " width="115" height="30"><path d="M345.37 40.4a46.45 46.45 0 0 0-23.46 5.87c0-20.85 0-39.75.65-46.27L278.9 7.82v3.91l4.56.65c5.87 1.31 7.82 4.56 9.12 12.38 1.31 15.64.66 99.05 0 112.74 11.73 2.61 24.12 4.56 36.5 4.56 34.54 0 55.39-21.5 55.39-55.39 0-26.72-16.94-46.27-39.1-46.27zm-15 94.49c-2.61 0-5.86 0-7.82-.65-.65-9.12-1.3-47.57-.65-81.45 3.91-1.31 6.52-2 9.77-2 14.34 0 22.16 16.94 22.16 37.79 0 26.07-9.77 46.27-23.46 46.27zM114.69 2.61H0v5.86l6.52.66c8.47 1.3 11.73 6.51 13 18.89 1.95 23.46 1.3 65.82 0 86-1.3 12.38-4.56 18.25-13 18.89L0 134.24v5.21h73.63v-5.21l-7.82-1.31c-8.47-.64-11.73-6.51-13-18.89-.65-8.48-1.3-22.16-1.3-39.1l15.64.65c9.78 0 14.33 7.82 16.29 18.9h5.86V48.22h-5.89c-2 11.08-6.51 18.9-16.29 18.9l-15.64.65c0-22.15.65-43 1.3-55.39h22.81c17.59 0 26.72 11.08 33.23 30.63l6.52-1.95-.65-38.45z" style="fill-rule:evenodd"></path><path d="M151.83 39.1c32.58 0 48.88 22.16 48.88 51.48 0 28-18.25 51.48-50.83 51.48S101 119.9 101 90.58c0-28 18.25-51.48 50.83-51.48zm-2 6.52c-14.34 0-18.25 19.55-18.25 45 0 24.76 6.52 45 19.55 45 15 0 18.9-19.55 18.9-45 0-24.76-6.52-45-20.2-45zM392.94 91.23c0-26.71 16.94-52.13 50.18-52.13 27.36 0 40.4 20.2 40.4 46.92h-60.61c-.65 24.11 11.08 41.7 34.54 41.7 10.43 0 15.64-2.6 22.16-7.16l2.6 3.25c-6.52 9.12-20.85 18.25-39.09 18.25-29.33 0-50.18-20.85-50.18-50.83zm30-12.38l30.63-.65c0-13-2-32.58-13-32.58s-16.95 18.24-17.6 33.23zM561.06 44.32c-7.82-3.26-18.25-5.22-30-5.22C507 39.1 492 53.43 492 70.38s11.07 24.11 26.72 29.33c16.28 5.85 20.85 10.42 20.85 18.24s-5.87 15-16.29 15c-12.38 0-21.51-7.16-28.68-26.71l-4.6 1.29.65 28.67c7.82 3.25 22.16 5.86 34.54 5.86 25.41 0 41.71-13 41.71-33.23 0-13.69-7.17-21.51-24.12-28-18.24-7.16-24.76-11.72-24.76-20.19s5.87-14.34 13.69-14.34c11.73 0 19.55 7.16 25.41 24.76l4.56-1.3-.65-25.41zM285.42 41.71c-11.08-6.52-30.63-3.26-41.05 20.2L245 39.1l-43.66 8.47v3.91l4.56.65c5.86.66 8.47 3.91 9.12 12.39 1.3 15.64.65 43 0 56.69-.65 7.81-3.26 11.72-9.12 12.38l-4.56.65v5.21H262v-5.21l-7.82-.65c-6.52-.66-8.47-4.57-9.12-12.38-1.31-12.38-1.31-37.14-.65-52.78 3.25-4.57 17.59-8.48 30.62 0l10.43-26.72z" style="fill-rule:evenodd"></path></svg>
+</div>
+<div class='customer-logos_logo customer-logos_logo--nyt'>
+<svg viewbox="0 0 566.93 79.61" aria-hidden="true" role="img" class="ds-icon ds-icon-nyt " width="210" height="30"><path d="M35.05.07a11.23 11.23 0 0 1 6 2.56 7.71 7.71 0 0 1 1.75 7.55 7.65 7.65 0 0 1-3.8 5.25A9.9 9.9 0 0 1 33.59 17v10.26l5 4-5 4.05v14a22.75 22.75 0 0 0 8.13-9.33s.13-.35.42-1c.28 1.73.12 5.23-1.83 9.72a18.06 18.06 0 0 1-7.51 8.48c-5.95 3.3-10.41 3.62-15.2 2.63a21.59 21.59 0 0 1-14.16-9.8A23.11 23.11 0 0 1 0 37.56v-.67c.19-9.51 7.26-17.7 15.42-20.76a8.24 8.24 0 0 1 2.8-.74c-.65.44-1.4 1-2.32 1.62a17.08 17.08 0 0 0-5.84 7.81l15.84-7.07v22.14l-12.77 6.4a16.66 16.66 0 0 0 9.66 5.51c6.43.71 10.21-2.1 10.21-2.1V35.36l-5-4.05 5-4V17a66.37 66.37 0 0 1-7.95-1.69c-2.84-.7-12.31-3.36-13.8-3.58s-3.33-.15-4.43.84a4.39 4.39 0 0 0-1.33 4.35 4.83 4.83 0 0 0 1.35 1.88 4 4 0 0 1-1.54-.64A7.22 7.22 0 0 1 2 12.4a9.55 9.55 0 0 1 4-8.5 12 12 0 0 1 8.37-2.11c4.67.67 10.94 3.3 16.52 4.64 2.17.53 3.84.7 5.36-.18a2.63 2.63 0 0 0 .94-3.58C36 .62 33.7.66 31.77.3A9.93 9.93 0 0 1 33.9 0c.32 0 .66 0 1.11.07zm-18.83 44V22.71l-6.43 2.87a21.06 21.06 0 0 0-1.36 9 22.3 22.3 0 0 0 4.34 11.23zM96.47 21.67s-4.85 2.94-8.12 4.89-7.64 4.07-7.64 4.07V51l-2.91 2.37.38.46 2.82-2.3 9 8.07 15.51-12.29-.36-.44-8.58 6.72-7-6.6v-2.46l14.15-10.41-7.25-12.45zm.21 16.85l-7.2 5.27V26.25zM55.81 67.27a14.42 14.42 0 0 0 10-1.39c4.79-2.4 7.2-7.5 7.17-12.72l.2-7.4V29.59l3.07-2.35-.36-.45-3 2.27-7-7.74L57 29V2.93l-11.21 8.62c.49.32 2.07.61 2.12 2.84V50.9l-4.72 3.51.32.49 2.28-1.7 6.36 5.91 10-8-.36-.45-2.35 1.86L57 50.08V29.74l2.92-2.48 4.35 5.39V50.2c0 4.66 0 10.48-2.5 13.29s-3.46 3.04-5.96 3.78zM125.26 65.43c-4-.46-5.68-2.88-5.63-4.79a4.36 4.36 0 0 1 3.57-4c2.43-.34 4.91.81 7 3.27l9.23-10.2-.44-.4-2.48 2.77a16.24 16.24 0 0 0-9.66-5.2V15.84l24 43.69s.23.5 1.22.5.64-.69.64-.69v-44a11 11 0 0 0 6.37-2.64c4.61-4.74 2.73-9.92 2.22-10.42a5 5 0 0 1-4.92 4.55 8.5 8.5 0 0 1-6.13-2.8L141 14.58l.44.4 2.64-3a11.37 11.37 0 0 0 8 3.42v25.49L134.33 8.57c-1.61-2.67-4.07-5-7.91-5.05-4.42 0-7.58 3.87-8 7.23-.43 3.79 0 4.66 0 4.66s.65-4.22 3.27-4.18c2.34 0 3.56 2.19 4.5 3.81v9.36c-2.42.16-8.71.44-9.1 7a7.72 7.72 0 0 0 2.91 5.85 5.87 5.87 0 0 0 3 1.09 2.85 2.85 0 0 1-1.43-3.23c.54-1.92 4.54-2.23 4.69-1.43v13.21c-1.92 0-8.08.19-10.86 5.47a8.88 8.88 0 0 0 .21 9.28 9.31 9.31 0 0 0 9.65 3.79zM175.91 21.67s-4.85 2.94-8.12 4.89-7.64 4.07-7.64 4.07V51l-2.91 2.34.38.46 2.85-2.3 8.92 8.07 15.51-12.26-.36-.44-8.54 6.72-7.08-6.59v-2.47l14.15-10.41-7.16-12.45zm.21 16.85l-7.2 5.27V26.25zM197.59 59.75L190 53.43l-3.34 2.42-.34-.47 3.4-2.49V35.23c.15-7.23-6.72-5.47-6.31-13.23.16-3.39 3.45-5.95 5.1-6.8a9.21 9.21 0 0 1 3.7-.9s-3.12 1.95-2.36 4.74c1.16 4.32 8.54 4.7 8.68 10.45v20l5.47 4.44 1.43-1.12V31.12l-2.94-2.92 7.51-6.69 6.91 6.12-2.64 2.86v19.22l6.47 5.34 1.15-.74V31.17L219 28.42l7.57-6.92 7.08 5.85 2.83-2.51.39.45-6.37 5.59v18.87l-16.29 10-8.34-6.59zM530.85 21.67s-4.85 2.94-8.11 4.89-7.64 4.07-7.64 4.07V51l-2.92 2.34.39.46 2.84-2.3 8.93 8.07 15.51-12.29-.37-.44-8.57 6.72-7-6.6v-2.43L538 34.12l-7.17-12.45zm.21 16.85l-7.2 5.27V26.25zM458.04 30.21l.38.44 2.92-2.52 4.34 4.91V49.9l-2.11 1.92 6.76 7.64 6.93-6.83-2.85-2.96V29.29l1.72-1.38 4.8 5.59v16.82l-1.8 1.79 6.36 7.16 6.8-6.81-2.5-2.62-.06-20.47 1.84-1.5 4.99 5.51V50.1l-1.64 1.64 7.02 7.66 9.44-8.71-.4-.43-2.29 2.11-3.52-3.89V29.39l3.39-2.58-.35-.46-3.4 2.57-6.41-7.19-9.18 7.25-6.42-6.99-8.87 6.93-6.48-6.9-9.41 8.19z" style="fill-rule:evenodd"></path><path style="fill-rule:evenodd" d="M438.84 29.68l.38.44 2.47-2.13 3.86 4.57v19.27l-2.73 2.38.38.44 2.86-2.43 6.23 7.18 8.99-8.03-.38-.45-2.65 2.33-3.71-4.29V30.12l3.13-2.71-.38-.45-2.98 2.57-6.55-7.64-8.92 7.79zM441.43 13.72l6.77-6.2 5.51 6.11-6.8 6.18-5.48-6.09z"></path><path d="M432.32.07a11.23 11.23 0 0 1 6 2.56 7.71 7.71 0 0 1 1.68 7.55 7.64 7.64 0 0 1-3.74 5.25 9.93 9.93 0 0 1-5.4 1.57v10.26l5 4-5 4.05v14a22.81 22.81 0 0 0 8.14-9.24s.13-.35.42-1c.28 1.73.12 5.23-1.83 9.72a18.17 18.17 0 0 1-7.51 8.48c-5.95 3.3-10.42 3.62-15.2 2.63a21.59 21.59 0 0 1-14.16-9.8 23.4 23.4 0 0 1-3.44-13.19c.2-9.51 7.27-17.7 15.43-20.76a8.18 8.18 0 0 1 2.79-.74c-.65.44-1.4 1-2.32 1.62a17.15 17.15 0 0 0-5.84 7.81l15.84-7.07v22.12l-12.77 6.4a16.6 16.6 0 0 0 9.66 5.51c6.43.71 10.2-2.1 10.2-2.1V35.36l-5-4.05 5-4V17a66.8 66.8 0 0 1-7.95-1.69c-2.84-.7-12.31-3.36-13.8-3.58s-3.32-.15-4.43.84a4.39 4.39 0 0 0-1.32 4.35 4.73 4.73 0 0 0 1.35 1.93 4 4 0 0 1-1.54-.64 7.16 7.16 0 0 1-3.31-5.76 9.54 9.54 0 0 1 4-8.5 12 12 0 0 1 8.38-2.11c4.66.67 10.93 3.3 16.52 4.64 2.16.53 3.84.7 5.36-.18a2.64 2.64 0 0 0 .94-3.58c-1.19-2-3.47-2-5.4-2.37a9.93 9.93 0 0 1 2.13-.3c.32 0 .65 0 1.1.07zm-18.83 44V22.71l-6.43 2.87a21.16 21.16 0 0 0-1.35 9 22.12 22.12 0 0 0 4.34 11.23zM548.11 62.23c-1 .3-5.49-.78-6.56-5.41s2.08-7.56 6.82-12.37l-5.59-5.1V29.6s4.11-2.05 7.32-4.06 6.51-4.19 6.51-4.19 2.4 3 5.11 2.78c4.25-.37 4-3.72 3.93-4.51.72 1.29 2.66 5.14-4.8 13.74l6.08 4.91v12.66a123.26 123.26 0 0 0-13.74 8.55s-3.73-4.66-7-2.44c-2.19 1.51-1.19 4.05 1.88 5.19zm-5.25-9.76s3.21-5.3 8.72-4.16c5.28 1.1 7.12 6.68 7.12 6.68V42.13l-3.7-3.2c-4 4.07-11.26 10-12.15 13.54zM551 25.61v10.13l3.37 2.94s7.33-5.86 10-11.3c0 0-3.29 4.47-7.73 3.11a10.67 10.67 0 0 1-5.64-4.88zM320 30.09l2.74-2.52.39.44-2.67 2.48v20.13s-5.06 2.68-8.59 4.68-7.31 4.33-7.31 4.33l-9.28-7.82-2.46 2.13-.4-.44 2.58-2.25V29.6s4.38-2 8.08-4.07c3.3-1.86 7-4 7-4l9.92 8.56zm-16.15 17.74l7.85 7.1V33.2l-7.85-7.26zM338.29 28.05l5.9-6a9 9 0 0 0 1.57 1.09 4.26 4.26 0 0 0 3.86.23 7.39 7.39 0 0 0 2-1.54c.2 4.69-2.05 8-4.86 9.35-1.15.56-4.51 1.63-8-2.65v21.63l3.74 3.3 3.11-2.57.36.45-9.76 8.15-7.43-6.76-2.67 2.52-.44-.47 4.07-3.67v-18.7l-3.13-4.14-2.68 2.37-.39-.43 9.46-8.5zM363.17 37.07l10.91-15.86a8.3 8.3 0 0 0 3.92 2.36c3.41.89 6.38-2.4 6.38-2.4-.57 4.24-2.72 9.06-7.16 9.79-3.91.66-7.55-2.39-7.55-2.39l-.71 1.1 15.14 22.87 3-2.65.39.44-10.39 9.08z" style="fill-rule:evenodd"></path><path d="M354.16 15.89c0-3.43-1.41-5.54-3.24-5.39l11.9-8.36v47.32l3.14 3.3 2.38-2.06.37.44-9.58 8.38-6.5-6.1L350 55.7l-.41-.44 4.54-3.95zM254.68 15.11c0-3.2-1.29-5-3.4-5-3-.07-3.74 4.2-3.74 4.2a8 8 0 0 1 2.2-6.31 8.85 8.85 0 0 1 8.95-2.93c4.66 1.13 6 4.75 6 7.94V57s1.77.21 3 .48c1.41.29 2.73.66 2.73.66V5.11h.58v7.15l9.56-7.69 7 6.22L290.77 8l.38.45-3.42 2.93v40.9c-.17 2.66-.6 5.38-3.12 6.94-5.62 3.34-12.4-.51-18.45-1.38-4.48-.67-11.52-1.52-13.29 2.6a3.81 3.81 0 0 0 1.5 4.8c4.08 2.73 22.26-4.58 28.5-1.68 5.68 2.65 5.66 6.83 4.78 9.71-1.48 5.4-8.29 6.34-8.29 6.34s3.33-1.93 2.38-5.14c-.48-1.62-1.58-2.07-5.15-1.68-7.79.89-17.1 4.67-23.36 2-3.23-1.34-5.51-5.37-5.29-9.33.16-5.71 6.74-8 6.74-8V36.45c-.19-.83-3.7-.61-4.47.94-1.16 2.34 1.45 3.41 1.45 3.41a4.69 4.69 0 0 1-4-1.77 6.67 6.67 0 0 1-.33-7.94c2-2.74 4.35-3.22 7.34-3.54V15.11zM271 58.34a5.92 5.92 0 0 0 4.8-.92 5.56 5.56 0 0 0 2-4.46V36.57a4.68 4.68 0 0 0-3.38-1.68 4.84 4.84 0 0 0-3.42 1.74v21.71zm6.81-43l-4.59-4L271 13v15.21a4.84 4.84 0 0 0 3.43 1.73 4.69 4.69 0 0 0 3.38-1.66v-13zm0 13.88a4.89 4.89 0 0 1-3.39 1.49 5 5 0 0 1-3.42-1.5v6.48a4.7 4.7 0 0 1 6.81-.08z" style="fill-rule:evenodd"></path></svg>
+</div>
+<div class='customer-logos_logo'>
+<svg viewbox="0 0 566.93 178.67" aria-hidden="true" role="img" class="ds-icon ds-icon-namely " width="142" height="45"><path d="M72.79 151.94h-13c-2.78 0-4.76-.53-6.88-4.11L22.76 95.69c-.53-.8-.79-1.06-1.19-1.06s-.66.26-.66 1.06v53.6a2.66 2.66 0 0 1-2.65 2.65H2.65A2.66 2.66 0 0 1 0 149.29V58.63a5 5 0 0 1 5-5h13.4c2.64 0 4 1.32 5.55 4.1l31.37 54.53c.53.79.66 1.06 1.06 1.06s.62-.32.62-1.22v-56a2.54 2.54 0 0 1 2.65-2.51h15.66A2.54 2.54 0 0 1 78 56.11v90.8a5.14 5.14 0 0 1-5.16 5M131.29 119.51h-7.55c-9.26 0-11.65 3.18-11.65 9.66v1.19c0 5.56 2.78 6.62 8.34 6.62a24.53 24.53 0 0 0 10.86-2.91zm18.39 32.43h-14.82a2.66 2.66 0 0 1-2.65-2.65v-2.12a29.13 29.13 0 0 1-18.39 6c-11.52 0-22.64-5.56-22.64-22.77v-1.19c0-15.49 9.93-22.37 32.56-22.37h7.15V102c0-7.54-3.71-9.13-9.93-9.13-8.47 0-17.87.53-22 .92h-.66a2.16 2.16 0 0 1-2.3-2.34V80.73a3 3 0 0 1 2.51-2.91A106.67 106.67 0 0 1 121.36 75c19.06 0 31 7.67 31 27v47.25a2.66 2.66 0 0 1-2.68 2.69zM264 151.94h-16a2.78 2.78 0 0 1-2.65-2.78V104c0-8.47-2-11-8.08-11a25.57 25.57 0 0 0-10.19 2.38c.27 2.65.4 5.69.4 8.6v45.14a2.78 2.78 0 0 1-2.65 2.78h-16a2.89 2.89 0 0 1-2.78-2.78V104c0-8.47-1.59-11-7.68-11-2.51 0-5.95 1.32-10.06 3.44v52.68a2.77 2.77 0 0 1-2.64 2.78h-16a2.9 2.9 0 0 1-2.78-2.78V78.74a2.65 2.65 0 0 1 2.65-2.64h15.09a2.65 2.65 0 0 1 2.64 2.64v2.92C192.82 78 199.18 75 206.85 75c7 0 11.91 2 15.62 6.48 7.68-4.36 13-6.48 21.57-6.48 17.47 0 22.77 11.65 22.77 29v45.14a2.9 2.9 0 0 1-2.78 2.78M324.64 106.94c0-9.8-4.5-14.7-11.91-14.7s-12.18 5-12.18 14.7v.53h24.09zm18.13 13.76h-42.22v.3c0 7.54 3.18 14.42 13.63 14.42 8.34 0 20.12-.66 25.42-1.19h.4c1.46 0 2.52.66 2.52 2.12v10.06c0 2.11-.53 3-2.78 3.57a101 101 0 0 1-27.14 3.18c-16 0-33.22-8.47-33.22-34v-9.26c0-21.31 12.45-34.81 33.49-34.81 21.71 0 32.69 14.82 32.69 34.81v7.67c-.01 1.94-1.07 3.13-2.79 3.13zM377.05 151.94H360.9a2.89 2.89 0 0 1-2.78-2.78V53.07a2.77 2.77 0 0 1 2.78-2.65h16.15a2.54 2.54 0 0 1 2.51 2.65v96.09a2.67 2.67 0 0 1-2.51 2.78M461.48 79.14l-22.23 78c-4.1 14.29-9.53 21.57-29 21.57a69 69 0 0 1-16-2.12c-1.46-.53-2.78-.92-2.78-2.38v-10.76a2.54 2.54 0 0 1 2.65-2.51h.26c4.37.26 12.18 1.05 16.55 1.05 4.76 0 7.14-1.58 8.73-6.88l1.19-4.1h-2c-4.9 0-9-.8-12.31-12.31l-17.45-59.56a2.44 2.44 0 0 1-.14-.92c0-1.33.8-2.12 2.65-2.12h17.6a2.81 2.81 0 0 1 2.52 2.51l11.91 49.77c.4 1.85.8 2.51 1.59 2.51h1.19l12.31-52.28a3 3 0 0 1 2.78-2.51h17.6a2.5 2.5 0 0 1 2.52 2.38c0 .26-.14.4-.14.66M538.68 0l-9.5 20a11.41 11.41 0 0 0-.87-1.08 16.22 16.22 0 0 0-5.12-3.49 15.15 15.15 0 0 0-6.13-1.26 15.78 15.78 0 0 0-8.69 2.52 15.41 15.41 0 0 0-5.85 6.82l-17.7 39.34 28.37 13.18 9.49-20a7.77 7.77 0 0 0 .79 1.09 16 16 0 0 0 5.19 3.48 15.6 15.6 0 0 0 6.23 1.27 14.64 14.64 0 0 0 8.52-2.6 17.24 17.24 0 0 0 5.86-6.88l17.66-39.32L538.68 0"></path></svg>
+</div>
+<div class='customer-logos_logo customer-logos_logo--upwork'>
+<svg viewbox="0 0 566.93 171.89" aria-hidden="true" role="img" class="ds-icon ds-icon-upwork " width="133" height="40"><path d="M367.11 39.75c-24.91.12-45.21 20.6-45.09 46.09s20.61 45.79 45.53 45.67 45.22-20.6 45.1-46.09S392 39.63 367.11 39.75zm.35 73.07a26.6 26.6 0 0 1-26.75-26.45v-.06a26.6 26.6 0 0 1 26.45-26.75A26.6 26.6 0 0 1 394 86c0 14.24-12.37 26.75-26.54 26.82zm100.59-51.46c-13 .06-23.18 10.88-23.12 23.91l.21 43.61-19.83.1-.4-86.67 19.82-.1.07 13.59s8.43-13.63 25.42-13.7h5.66l.1 19.25zM270.26 43l15 59.42 15.6-59.52 19.82-.09-24.52 86.78-19.26.09-15.57-60.54-15 60.68-19.26.09-25.9-86.55 19.25-.09 17.27 59.4 13.88-59.55zm263.59 38.45c13.55-8 23.12-22.77 23-39.76l-19.83.09c.08 14.73-11.77 26.68-25.93 26.75h-2.79L508 0l-19.84.1.6 128.58 19.82-.09-.18-40.78h2.26c2.27 0 4.54 1.11 5.12 2.81l27.92 37.81 23.23-.11zM155.26 40.74c-21.52.1-37.88 14.34-44 37a199.85 199.85 0 0 1-22.89-49.15l-22.66.11.28 60a21.53 21.53 0 1 1-43 .21l-.28-60L0 29l.28 60.06a44.19 44.19 0 1 0 88.37-.42V78.45a193.27 193.27 0 0 0 16.55 27.11l-13.89 66.33 23.22-.1 10-48.2a57.48 57.48 0 0 0 31.18 8.92c24.93-.13 45.23-20.61 45.1-46.67a45.44 45.44 0 0 0-45.55-45.1zm.33 68.54c-9.06 0-18.14-3.88-25.53-10.08l2.22-9.07v-.57c1.65-9.64 6.67-26.09 23.66-26.17A22.74 22.74 0 0 1 178.71 86c-.51 13-11.22 23.23-23.12 23.28z"></path></svg>
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+<script src="https://d2qvtfnm75xrxf.cloudfront.net/assets/launch-8ba5876546d513647d059c84b4ea0431e8ea44bcc0d2990b7ddcfcb5f4a009ee.js"></script>
+
+<script src='/respondjs/respond.proxy.js'></script>
+
+</body>
+
+</html>
